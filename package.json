@@ -1,0 +1,29 @@
+{
+  "name": "Test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "haul": "haul start",
+    "bundle": "haul bundle"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0",
+    "ts-loader": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^15.0.24",
+    "@types/react-native": "^0.43.11",
+    "babel-jest": "20.0.0",
+    "babel-preset-react-native": "1.9.1",
+    "haul-cli": "^0.5.0",
+    "jest": "20.0.0",
+    "react-test-renderer": "16.0.0-alpha.6",
+    "typescript": "^2.3.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
