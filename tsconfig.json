@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "es2016",
     "jsx": "react",
     "module": "es2015",
     "moduleResolution": "node",
@@ -17,32 +17,7 @@
     "sourceMap": true,
     "paths": {
       "src/*": ["./src/*"],
-      "api/*": ["./src/api/*"],
-      "utils/*": ["./src/utils/*.ios", "./src/utils/*.android", "./src/utils/*"],
-      "components/*": ["./src/components/*.android", "./src/components/*.ios", "./src/components/*"],
-      "containers/*": ["./src/containers/*"],
-      "navigators/*": ["./src/navigators/*"],
-      "reducers/*": ["./src/reducers/*"],
-      "actions/*": ["./src/actions/*"],
-      "services/*": ["./src/services/*"],
-      "records/*": ["./src/records/*"],
-      "types/*": ["./src/types/*"],
-      "configs/*": ["./src/configs/*"],
-      "tsResources/*": ["./src/ts-resources/*"]
+      "components/*": ["./src/components/*"]
     }
-  },
-  "filesGlob": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "src/**/*.android.tsx"
-  ],
-  "exclude": [
-    "build",
-    "node_modules",
-    "bumpVersion.js",
-    "bitrise-scripts",
-    "coverage",
-    "webpack.haul.js"
-  ],
-  "compileOnSave": false
+  }
 }
